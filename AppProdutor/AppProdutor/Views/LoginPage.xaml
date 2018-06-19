@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProdutor.Views.LoginPage">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sair" Clicked="ToolbarItem_SairClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout VerticalOptions="StartAndExpand">
+        <Label Text="Usuário" />
+        <Entry x:Name="entryUsuario" Placeholder="usuário" />
+        <Label Text="Senha" />
+        <Entry x:Name="entrySenha" IsPassword="true" />
+        <Button Text="Entrar" Clicked="Button_EntrarClicked" />
+        <Label x:Name="labelMensagem" />
+    </StackLayout>
+</ContentPage>

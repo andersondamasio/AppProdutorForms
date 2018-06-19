@@ -1,3 +1,4 @@
+using AppProdutor.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,6 +13,7 @@ namespace AppProdutor
 			InitializeComponent();
 
 			MainPage = new MainPage();
+
 		}
 
 		protected override void OnStart ()
